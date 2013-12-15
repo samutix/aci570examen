@@ -1,0 +1,52 @@
+/* Css */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, code, img, s, strike, strong, ul, li, fieldset, form, label, legend {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1
+}
+ol, ul {
+	list-style: none;
+	text-indent: 0;
+}
+input, textarea, select, button {
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: 0;
+	display: inline-block
+}
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration:none;
+}
+
+/* Base */
+
+h1 {
+	font-size:138.5%
+}
+h2 {
+	font-size:123.1%
+}
+h3 {
+	font-size:108%
+}
+h1,h2,h3 {
+	margin:1em
+}
+h1,h2,h3,h4,h5,h6,strong {
+	font-weight:bold
+}
+ol li {
+	list-style: decimal outside
+}
+p, fieldset {
+	margin-bottom:1em
+}
